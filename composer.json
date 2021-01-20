@@ -1,0 +1,12 @@
+{
+    "name": "syder/converter",
+    "authors": [
+        {
+            "name": "Davis",
+            "email": "daviskipkiruitoo@gmail.com"
+        }
+    ],
+    "require": {
+        "ozdemirburak/json-csv": "^0.4.0"
+    }
+}

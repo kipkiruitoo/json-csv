@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ca1f86034a1b18903b0166c75a0a4a17",
+    "packages": [
+        {
+            "name": "ozdemirburak/json-csv",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ozdemirburak/json-csv.git",
+                "reference": "2fa2698c6f100c32cb9bfe6b705594bb37cec4d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ozdemirburak/json-csv/zipball/2fa2698c6f100c32cb9bfe6b705594bb37cec4d7",
+                "reference": "2fa2698c6f100c32cb9bfe6b705594bb37cec4d7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~8.0|~9.0",
+                "squizlabs/php_codesniffer": "~3.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OzdemirBurak\\JsonCsv\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Burak Özdemir",
+                    "homepage": "https://ozdemirburak.com"
+                }
+            ],
+            "description": "JSON to CSV and CSV to JSON converters in PHP.",
+            "homepage": "https://github.com/ozdemirburak/json-csv",
+            "keywords": [
+                "csv",
+                "csv to json",
+                "csv2json",
+                "json",
+                "json to csv",
+                "json2csv"
+            ],
+            "support": {
+                "issues": "https://github.com/ozdemirburak/json-csv/issues",
+                "source": "https://github.com/ozdemirburak/json-csv/tree/0.4.0"
+            },
+            "time": "2020-12-06T17:01:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
